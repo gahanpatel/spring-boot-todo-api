@@ -39,7 +39,7 @@ public class TaskController {
     }
 
     @PatchMapping("/{id}/complete")
-    public Task markTaskAsCompleted(Long id) {
+    public Task markTaskAsCompleted(@PathVariable Long id) {
         return taskService.markTaskAsCompleted(id);
     }
 }
