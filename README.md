@@ -15,6 +15,7 @@ Database persistence with JPA/Hibernate
 RESTful API design following best practices
 Docker containerization
 Deployed on Render with automated GitHub integration
+
 📊 API Endpoints
 Method	Endpoint	Description
 GET	/api/tasks	Get all tasks
@@ -24,6 +25,7 @@ PUT	/api/tasks/{id}	Update existing task
 DELETE	/api/tasks/{id}	Delete task
 PATCH	/api/tasks/{id}/complete	Mark task as complete
 GET	/actuator/health	Health check endpoint
+
 🏗️ Architecture
 Layered Architecture Pattern:
 Controller Layer - Handles HTTP requests and responses
